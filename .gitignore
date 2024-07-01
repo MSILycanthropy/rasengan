@@ -1,0 +1,8 @@
+out_frames
+tmp_frames
+
+executables
+
+**/*.mkv
+**/*.mp4
+
