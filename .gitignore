@@ -1,7 +1,8 @@
 out_frames
 tmp_frames
 
-executables
+executables/*
+!executables/.keep
 
 **/*.mkv
 **/*.mp4
