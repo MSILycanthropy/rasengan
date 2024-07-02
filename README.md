@@ -1,6 +1,6 @@
 # rasengan
 
-A small set of shell scripts for running [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) to upscale anime.
+A small set of shell scripts for running ffmpeg and [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) to upscale anime.
 
 ## Usage
 
