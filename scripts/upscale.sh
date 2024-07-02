@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Upscaling by ${$1}x"
 if [ -f "executables/realesrgan/realesrgan-ncnn-vulkan.exe" ]; then
   # executables/anime4k/Anime4KCPP_CLI.exe -i tmp_frames -o out_frames -z 4 -w -q -H
   EXECUTABLE=executables/realesrgan/realesrgan-ncnn-vulkan.exe
