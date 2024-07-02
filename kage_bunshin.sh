@@ -20,7 +20,7 @@ else
   PLATFORM="windows"
 fi
 
-OUT_DIR=executables/amogus
+OUT_DIR=executables/realesrgan
 URL=$(
   curl -s https://api.github.com/repos/xinntao/Real-ESRGAN/releases \
     | grep "browser_download_url" \
