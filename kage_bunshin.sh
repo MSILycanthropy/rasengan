@@ -34,7 +34,7 @@ FILE=$(basename $URL)
 echo $URL | wget -O $FILE -qi - | wait
 
 if [ -f "$FILE" ]; then
-  mdkir $OUT_DIR
+  mkdir $OUT_DIR
   echo "Unzipping $FILE..."
   unzip $FILE -d $OUT_DIR >/dev/null 2>&1
   rm -rf $FILE
@@ -42,3 +42,6 @@ if [ -f "$FILE" ]; then
 else
   echo "Something went wrong.. please try again."
 fi
+
+chmod +x ./rasengan.sh
+chmod +x executables/realesrgan/realesrgan-ncnn-vulkan.exe

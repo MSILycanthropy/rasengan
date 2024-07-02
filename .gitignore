@@ -1,5 +1,7 @@
-out_frames
-tmp_frames
+out_frames/*
+tmp_frames/*
+!out_frames/.keep
+!tmp_frames/.keep
 
 executables/*
 !executables/.keep

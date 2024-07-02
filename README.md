@@ -9,6 +9,7 @@ First clone the repo and get in the right directory.
 Then get it all setup,
 
 ```sh
+> chmod +x ./kagebunshin.sh
 > ./kage_bunshin.sh windows # windows or ubuntu
 ```
 
